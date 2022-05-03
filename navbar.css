@@ -1,0 +1,59 @@
+body{
+    margin:0;
+   
+}
+#logo{
+    width:4.75rem;
+    height:1.4375rem;
+}
+nav a{
+    text-decoration:none;
+    color:black;
+
+}
+nav{
+    display: flex;
+    width: 100%;
+    height:6.375rem;
+    align-items: center;
+    background-color: #fff;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: .875rem;
+    font-weight: 600;
+    position: relative;
+}
+#nav_left{
+    display: flex;
+    align-items: center;
+    margin-left: 8rem;
+}
+#menu{
+    margin-left: 2.75rem;
+}
+#Deals{
+    margin-left: 2.75rem;
+}
+#nav_right{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    margin-right:10rem ;
+
+}
+#signup{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-weight: 700;
+
+}
+#avatar{
+    display: flex;
+    align-items: center;
+   
+}
+#cart_total{
+    border-left:1px solid #ccc; 
+    padding-left: 1rem;
+    padding-right: .5rem;
+}
