@@ -1,0 +1,44 @@
+
+#signIn{
+margin-top:75px;
+text-align: center;
+}
+.input{
+margin-top:40px
+}
+input{
+border: none;
+text-align: left;
+width: 330px;
+border: none;
+border-bottom: 1px solid #202124;
+outline: none;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 1.5px;
+color: black;
+}
+.ok{
+margin: auto;
+height: 44px;
+padding: 10px 40px;
+color: black;
+font-size: 13px;
+background-color: white;
+outline: none;
+border-radius: 200px;
+cursor: pointer;   
+}
+.btn{
+margin-top:30px;
+}
+#btn2>button{
+width:20%;
+}
+.ok:hover{
+background-color: black;
+color: white;
+}
+#htag{
+line-height:12px;
+}

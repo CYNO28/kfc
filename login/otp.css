@@ -1,0 +1,54 @@
+
+  #signIn{
+       margin-top:75px;
+ text-align: center;
+
+}
+img{
+margin-top: 40px;
+}
+#input{
+ width: 150px;
+ display: flex;
+ margin: auto;
+ justify-content:space-evenly;
+ gap: 10px;
+
+}
+#input input{
+width:30px;
+border: none;
+text-align: left;
+border: none;
+border-bottom: 2px solid #202124;
+outline: none;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 1.5px;
+color: black;
+
+}
+#button{
+ margin-top:40px
+}
+button{
+ width:200px;
+padding: 10px 40px;
+background-color: white;
+color: black;
+border-radius: 200px;
+border: 1px solid black;
+cursor: pointer;
+}
+button:hover{
+background-color: black;
+color: white;
+}
+#timer{
+  width:200px;
+  margin: auto;
+  color: red;
+}
+
+
+
