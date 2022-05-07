@@ -9,6 +9,17 @@
 </head>
 <body>
     <div id="navbar"></div>
+    <div class="popup" id="popup-1">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close">&times;</div>
+            <h1 style="margin-top: 50px;">START YOUR ORDER</h1>
+            <h1 style="margin-top: 20px;">HOW WOULD YOU LIKE TO RECEIVE <br> YOUR ORDER?</h1>
+            <button style="width:200px;border-radius: 20px; font-size: 20px; padding: 5px 10px; margin-bottom: 15px;margin-top: 20px;">Pick Up</button> <br>
+            <button style="width:200px;border-radius: 20px;font-size: 20px; padding: 5px 10px; margin-bottom: 15px;">Dine in</button> <br>
+            <button style="width:200px;border-radius: 20px;font-size: 20px; padding: 5px 10px; margin-bottom: 15px;">Delivery</button> <br>
+        </div>
+    </div>
 </body>
 </html>
 <script type="module">
@@ -17,5 +28,13 @@
 
     // let totalprice= JSON.parse(localStorage.getItem("x"));
     document.getElementById("amount").innerText=`₹${0}`;
+
+
+    document.querySelector(".close").addEventListener("click",popup);
+    document.getElementById("image").addEventListener("click",popup);
+
+    function popup(){
+        document.getElementById("popup-1").classList.toggle("active");
+    }
 
 </script>
