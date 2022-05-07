@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Gateway</title>
+    <link rel="stylesheet" href="./payment.css">
+</head>
+
+<body>
+    <!-- this is the implementation of NavBaar section -->
+    <div id="t1Container">
+        <div>
+            <a href="./index.html">
+                <img id="t1img" src="../image/logo.png" alt="TopHeading Img">
+            </a>
+        </div>
+        <div><img src="../image/pymt logo.svg" alt="mid-logo" class="head_logo"></div>
+        <div id="signupLogo">
+            <p class="Signed"> Signed as</p>
+            <h5 class="signed">test@gmail.com</h5>
+        </div>
+    </div>
+
+    <h2 id="pay_banner">Select your payment option</h2>
+    <Div id="parentContainer">
+        <div id="leftContainer">
+
+
+            <div id="left1">
+                <Div class="left1Child left1Child1">
+                    <img class="left1Img" src="../image/debit_credit.svg"
+                        alt="Debit/credit">
+                    <h3 class="avai_options">Debit/Credit Card</h3>
+                </Div>
+
+                <div class="left1Child">
+                    <img class="left1Img" src="../image/walletlogo.jpeg" alt="wallet">
+                    <h3 class="avai_options">Wallet</h3>
+                </div>
+
+                <div class="left1Child">
+                    <img class="left1Img" src="../image/UPI_logo_PNG-300x300 (1).jpg" alt="UPI">
+                    <h3 class="avai_options">UPI</h3>
+                </div>
+
+                <div class="left1Child">
+                    <img class="left1Img" src="../image/netbanking.webp" alt="netbanking">
+                    <h3 class="avai_options">Net banking</h3>
+                </div>
+
+                <div class="left1Child">
+                    <img class="left1Img" src="./image/COD.webp" alt="COD">
+                    <h3 class="avai_options">Cash On Delivery</h3>
+                </div>
+                <div class="left1Child"></div>
+
+
+            </div>
+
+            <div id="left2">
+
+                <div id="formImg">
+                    <img class="fImg fImg1" src="https://images.bewakoof.com/web/ic-visa-gray-payment-v1.jpg"
+                        alt="Form img1">
+                    <img class="fImg" src="https://images.bewakoof.com/web/ic-master-card-payment-v1.jpg"
+                        alt="Form img2">
+                    <img class="fImg" src="https://images.bewakoof.com/web/ic-rupay-payment-v1.jpg" alt="Form img3">
+                    <img class="fImg" src="https://images.bewakoof.com/web/ic-american-express-payment-v1.jpg"
+                        alt="Form img4">
+                </div>
+
+                <form>
+
+                    <input class="input" type="number" id="cardNum" placeholder="Card Number">
+                    <div id="cardD">
+                        <input class="input" id="expiry" type="month" min="2022-02" value="2022-02">
+                        <input class="input" type="number" id="ccv" placeholder="CVV">
+                    </div>
+
+
+                    <input class="input" type="text" id="name" placeholder="Name On Card">
+                    <div id="parentCheckBox">
+                        <input class="input" type="checkbox" id="checkbox" name="checkbox" value="Save card details for later">
+                        <h2 class="card_save">Save card details for later</h2>
+                    </div>
+                    <h2 class="card_save">This
+                        transaction you make is totally secure. We don't save your CVV number.</h2>
+                    <br>
+                    <br>
+                    <input class="input button" type="submit" value="Pay Now" id="inpbut">
+                </form>
+
+            </div>
+
+        </div>
+
+        <div id="rightContainer1">
+            <div id="rightContainer">
+                <div id="paymentContainer"></div>
+            </div>
+        </div>
+    </Div>
+</body>
+
+</html>
+<script src="./paydetail.js"></script>
