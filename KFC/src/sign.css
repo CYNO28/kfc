@@ -1,0 +1,64 @@
+
+
+#signIn{
+ margin-top:75px;
+ text-align: center;
+}
+img{
+margin-top: 40px;
+}
+.creat{
+ margin: auto;
+ width:520px;
+}
+input{
+ border: none;
+text-align: left;
+width: 30%;
+border: none;
+border-bottom: 1px solid #202124;
+outline: none;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 1.5px;
+color: black;
+}
+.term{
+ margin:  auto;
+ width:40%;
+ letter-spacing:0;
+}
+.send{
+ margin: auto;
+ height: 44px;
+padding: 10px 40px;
+color: black;
+font-size: 13px;
+background-color: white;
+outline: none;
+border-radius: 200px;
+cursor: pointer;
+}
+.hover:hover{
+background-color: black;
+color: white;
+}
+.skipBtn{
+width: 30%;
+background: #ffffff;
+color:#202124;
+font-weight: bold;
+font-size: 14px;
+line-height: 30px;
+border-radius: 66px;
+border: 1px solid #202124;
+padding: 8px 40px;
+cursor: pointer;
+}
+#akl > p{
+ background-color:rgb(44, 4, 4);
+ width: 25%;
+ margin:auto;
+color: rgb(255, 0, 0);
+margin-top:0;
+}

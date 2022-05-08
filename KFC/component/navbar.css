@@ -2,6 +2,11 @@ body{
     margin:0;
    
 }
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
 #logo{
     width:4.75rem;
     height:1.4375rem;
@@ -56,4 +61,20 @@ nav{
     border-left:1px solid #ccc; 
     padding-left: 1rem;
     padding-right: .5rem;
+
+}
+#cart_total p{
+    margin-top:15px ;
+}
+#cart_icon{
+    display: flex;
+    align-items: center;
+    background-image: url(https://images.ctfassets.net/wtodlh47qxpt/6qtBVFuno7pdwOQ9RIvYm9/d13e9b7242980972cf49beddde2cc295/bucket_cart_icon.svg);
+    width: 51px;
+    justify-content: center;
+    height: 51px;
+}
+#cart_icon p{
+    margin-top:15px ;
+    margin-left: 0px;
 }

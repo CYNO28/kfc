@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KFC SING IN</title>
+    <script
+    src="https://kit.fontawesome.com/24c494a6b6.js"
+    crossorigin="anonymous"></script>
+<link rel="stylesheet" href="../src/sign.css">
+   
+</head>
+<body>
+    <div  id="signIn">
+        <div>
+          <h3>Sign In / Sign up</h3>  
+        </div>
+        <div > 
+            <img src="https://login.kfc.co.in/auth/resources/1vkce/login/kfcIndiaLoginUIDev_2021_10_27_16_49/images/KFC_logo.svg" alt="kfc logo">
+        </div>
+        <div class="creat">
+            <h1> Let's Sign In or Create account with
+                     your phone number! 
+            </h1>         
+       </div>
+        <div id="akl">
+            <div id="ak">
+                 <input id="skl" oninput="mobile()" placeholder="Phone Number*" value="" type="text" inputmode="numeric">
+                 <span onclick="document.getElementById('skl').value = ''"
+                 style='font-size:20px; cursor: pointer;'>&#10006;</span>
+                 </div>
+         </div>
+        
+            
+            <div class="term">
+             <h4>By “logging in to KFC”, you agree to our <a href="https://online.kfc.co.in/privacyPolicy">
+                 Privacy Policy </a>and<a href="https://online.kfc.co.in/privacyPolicy">terms & Conditions. 
+                </a></h4>
+            </div>
+           <button onclick="sendotp()"   class="hover , send"   type="submit">Send Me a Code</button>
+            
+
+            <p>or</p>
+
+            <button onclick="skip()" class="skipBtn , hover"  type="submit">Skip, Continue As Guest</button>
+
+    </div>
+</div>
+</body>
+</html>
+
+    <script src="../src/sing.js"></script>
+
+
