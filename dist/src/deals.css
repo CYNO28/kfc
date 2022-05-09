@@ -1,0 +1,150 @@
+#container {
+    height: 450px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#childA {
+    display: flex;
+    margin: auto;
+    padding-left: 20%;
+    background-color: black;
+    color: white;
+
+
+
+}
+
+#button {
+    background: rgb(218, 19, 19);
+    border: 0px;
+    border-radius: 20px;
+    height: 40px;
+    width: 130px;
+    margin-left: 3%;
+    margin-top: 8px;
+
+}
+
+#childB {
+    height: 250px;
+    width: 100%;
+    background-image: url("https://online.kfc.co.in/static/media/offer_deals_banner.777f20e1.svg");
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-size-adjust: 10px;
+    padding-top: 10px;
+    margin: auto;
+    padding: auto;
+    font-size: 2rem;
+    letter-spacing: -3px;
+}
+
+.img {
+    margin-left: 50px;
+}
+
+#childD {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+
+.a>a {
+    color: black;
+    font-size: 14px;
+    color: #202124;
+}
+
+#childE {
+    display: flex;
+    height: 400px;
+    width: 70%;
+    margin: auto;
+    gap: 20px;
+
+}
+
+.b {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://online.kfc.co.in/static/media/Native_select%20a%20kfc_grey%20image.6e97ff02.svg");
+    color: white;
+    background-size: cover;
+    text-align: center;
+    flex: 1;
+    padding: 30px;
+}
+
+.b h3 {
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#empty{
+    flex: 1;
+}
+
+.c {
+    padding: 15px;
+    flex: 1;
+    border-radius: 10px;
+    background-color: rgb(255, 38, 0);
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+.c h3 {
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#buttonA {
+    height: 30px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: rgb(26, 23, 23);
+    color: white;
+}
+
+#buttonA:hover {
+    background-color: white;
+    color: black;
+}
+
+#buttonB {
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    border: 1px solid wheat;
+    background-color: rgb(255, 38, 0);
+    color: white;
+}
+
+#buttonB:hover {
+    background-color: white;
+    color: black;
+}
+#footer{
+    margin-top:5rem;
+}
+
+
+@media only screen and (min-width: 421px) and(max-width: 720px) {
+    
+}
+
+@media only screen and (min-width: 80px) and(max-width: 421px) {}

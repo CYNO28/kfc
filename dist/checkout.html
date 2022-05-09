@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheckOut</title>
+    <link rel="stylesheet" href="./cart.css">
+</head>
+
+<body>
+    <div id="top">
+        <div class="checkoutp"> <button Id="needs" >Back to cart</button> </div>
+        <div class="checkoutp"><img src="https://online.kfc.co.in/static/media/kfcLogo.492728c6.svg" alt=""></div>
+        <div class="checkoutp"><button id="needs"> needs/Help</button></div>
+    </div>
+    <div id="belowTop">
+        <img src="./image/threeline.png" alt="">
+        <h1>CHECKOUT</h1>
+        <h3 class="secure"> 🔒Secure Checkout</h3>
+    </div>
+
+    <div id="mid">
+        <div id="deliv">
+            <h2 class="deliHead">Delhivery INfo:</h2>
+            <p id="deliAdd"> Address:</p>
+        </div>
+        <div id="chkpage">
+            <h2> items</h2>
+            <div id="offer">
+                <img src="../image/percent.svg" alt="">
+                <span>Apply Offers and Deals</span>
+                <div class="payment">
+                    <h3 class="int-bill">
+                        <p>subtotal</p>
+                        <p id="subtotal">0.0</p>
+                    </h3>
+                    <h3 class="int-bill belowbor">
+                        <p>GST</p>
+                        <p id="gst">0.0</p>
+                    </h3>
+                    <h3 class="int-bill">
+                        <p>Total</p>
+                        <p id="Sum">0.0</p>
+                    </h3>
+                    <button id="checkout" >Pay Now</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <h1 class="conthead">CONTACT INFO</h1>
+
+    <div id="contact">
+        <input type="text" name="" id="name" placeholder="Full Name" class="contactG">
+        <input type="number" id="mobile" placeholder="Mobile" class="contactG">
+        <input type="text" name="email" id="email" placeholder="EMAIL" class="contactG">
+        <input type="text" id="address" placeholder="Enter Address Here" class="contactG">
+        <button  id="submit" >submit</button>
+    </div>
+</body>
+
+</html>
+<script type="module" defer src="./src/checkout.js"></script>

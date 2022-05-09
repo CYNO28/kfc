@@ -1,0 +1,210 @@
+body{
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+}
+#deals_offers{
+
+    background-image: url(https://online.kfc.co.in/static/media/offer_deals_banner.777f20e1.svg);
+    width: 100%;
+    height: 17.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position-x :50%;
+    background-position-y :50%;
+    background-size: cover;
+}
+#deals_offers h1{
+    font-size: 74px;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #fff;
+    text-size-adjust: 100%;
+    letter-spacing: -2px;
+    line-height: 78px;
+}
+#national_heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 3rem;
+
+    height: 7em;
+}
+#national_offers{
+    width: 69%;
+    margin: auto;
+}
+
+#national_offers a{
+    font-size: 14px;
+    color: #202124;
+}
+#main_h{
+    font-size: 2.4em;
+
+}
+#cards{
+    display: flex;
+    gap: 2rem;
+
+
+    color: #fff;
+    height: 427px;
+    margin-bottom: 3rem;
+
+}
+#cards h2{
+    font-size: 2rem;
+    letter-spacing: -2px;
+}
+#first_c{
+    /* box-sizing: border-box; */
+    width: 316px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-image: url(https://online.kfc.co.in/static/media/Native_select%20a%20kfc_grey%20image.6e97ff02.svg);
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#sec_c{
+    height: 416px;
+    width: 316px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #E4002B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#cards button{
+    padding: 11px 35px;
+    border-radius: 200px;
+    height: 44px;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+    outline: none;
+    /* margin: auto; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+
+    display: flex;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+#cards button:hover{
+    background-color: #fff;
+    color: #333;
+}
+#startorder{
+    height: 4rem;
+    width: 100%;
+    background-color: #202124;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#startorder p{
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+    color: #fff;
+    display: flex;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    margin:0 ;
+}
+    #startorder button{
+    padding: 11px 35px;
+    height: 70%;
+    background-color: #E4002B;
+    color: #fff;
+    border: none;
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left :1rem ;
+    }
+    #welcome{
+        display: flex;
+        align-items: center;
+        font-size: 2.8rem;
+        width: 37rem;
+        height: 108px;
+        margin-left: 11rem;
+        font-weight: 900;
+        margin-bottom: 4rem;
+    }
+    
+       #stripe{
+        display: flex;
+        display: block;
+        margin-left: 11rem;
+    }
+    #stripe span{
+        border: 5px solid #E4002B;
+
+        margin: 5px;
+    }
+    #browse{
+        margin-left: 9rem;
+        margin-bottom: 4rem;
+        font-weight: bolder;
+        display: flex;
+    }
+    #line{
+        height: .5rem;
+        margin-top: 1rem;
+        width: 40%;
+        border-bottom: 2px solid #ccc;
+        margin-left: 5rem;
+     }
+    #menu1{
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 1rem;
+        font-size: 18px;
+        text-align: center;
+        font-weight: 700;
+        margin-bottom: 4rem;
+    }
+    #menu1 img{
+        width:243px;
+        height:180px;
+        border-radius: 10px 10px 0 0;
+    }
+    #menu1>div{
+        width:243px;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+    }
+    #menu1 p{
+        margin-top:5px;
+    }
+    #menu1 a {
+        display: block;
+        color: #202124;
+    } 
